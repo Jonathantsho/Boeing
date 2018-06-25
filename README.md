@@ -25,9 +25,9 @@ Data Engineer Boeing Interview - Christian Petro
 ## Test Questions
 
 ### Ensure that changes to the source code can be automatically tested before they are deployed 
--This is done with Jenkins, I've built in a api unittest that will check the Flask API that I hosted on AWS before each deployment. 
--I've hosted Jenkins on an EC2 Amazon Linux AMI Server. 
--You can find a sample of the unittest output in (https://github.com/Jonathantsho/Boeing/blob/master/Jenkin%20Log%20File%20Example)
+- This is done with Jenkins, I've built in a api unittest that will check the Flask API that I hosted on AWS before each deployment. 
+- I've hosted Jenkins on an EC2 Amazon Linux AMI Server. 
+- You can find a sample of the unittest output in (https://github.com/Jonathantsho/Boeing/blob/master/Jenkin%20Log%20File%20Example)
 
 ### Specific version of the service can be launched for testing, debugging and demos
 This is done with Git.
