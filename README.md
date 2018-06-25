@@ -23,23 +23,23 @@ POST - https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/dev (send some raw
 
 Test Questions
 
-# Ensure that changes to the source code can be automatically tested before they are deployed 
+### Ensure that changes to the source code can be automatically tested before they are deployed 
 This is done with Jenkins, I've built in a api unittest that will check the Flask API that I hosted on AWS before each deployment. 
 
-# Specific version of the service can be launched for testing, debugging and demos
+### Specific version of the service can be launched for testing, debugging and demos
 This is done with Git.
 
-# Infrastructure and required services provisioning as well as deployment is automated and can be triggered with a click of a button or a command in a terminal.
+### Infrastructure and required services provisioning as well as deployment is automated and can be triggered with a click of a button or a command in a terminal.
 This is done with Serverless Framework, which allows extremely easy deployment from local to cloud within one command.
 ```
 serverless deploy
 ```
 For more info, check here https://serverless.com/framework/docs/providers/aws/guide/deploying/
 
-# Service is reasonably resilient and a single node failure does not affect end users 
+### Service is reasonably resilient and a single node failure does not affect end users 
 AWS Lambda is fully managed and has built in replication across many data centers which will protect it from single node failures.
 
-# Service can be scaled, preferably automatically, to handle increased loads 
+### Service can be scaled, preferably automatically, to handle increased loads 
 AWS Lambda Auto-scales to infinity given the number of requests.
 AWS API Gateway has a current capacity of 10,000 requests per second, but this can be changed via a simple support request to upgrade to 50,000 requests if you'd like. This is also free, as API gateway is pay as you go. 
 
