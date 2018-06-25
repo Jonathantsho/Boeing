@@ -21,7 +21,6 @@ Data Engineer Boeing Interview - Christian Petro
 - GET - https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/prod
 - POST - https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/prod (send some raw string data to it, it'll say Hello {name} World!"
 - To change existing environments, simply change "prod" in the URL to "dev", "test", "demo"
-- e.g. https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/dev
 
 ## Test Questions
 
