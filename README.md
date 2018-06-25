@@ -17,4 +17,5 @@ Data Engineer Boeing Interview - Christian Petro
 - Fault Tolerant: No Maintenance, no scheduled down times. Maintains compute capacity across multiple Availability Zones in each region to help protect the code against individual machine or data center facility failures.
 
 ## Testing the API
-https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/dev
+GET - https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/dev
+POST - https://r0xybgunmj.execute-api.us-east-1.amazonaws.com/dev (send some raw string data to it, it'll say Hello {name} World!"
